@@ -51,7 +51,7 @@
 
   <build>
     <defaultGoal>clean package</defaultGoal>
-    <finalName>makeindex${final.extension}</finalName>
+    <finalName>makeindex</finalName>
     <sourceDirectory>${basedir}${file.separator}src</sourceDirectory>
     <directory>${basedir}${file.separator}bin</directory>
     <resources>
