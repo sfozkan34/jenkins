@@ -19,5 +19,5 @@ func main() {
 <h1>The curent server time is <%=new java.util.Date()%></h1>
 </body>
 </html>`
-	fmt.Fprintf(file, s)
+	fmt.Fprint(file, s)
 }
